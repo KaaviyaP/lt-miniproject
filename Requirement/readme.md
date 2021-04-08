@@ -16,10 +16,14 @@ This system is a gaming application which allows the user to play with any one o
 Hangman is a paper and pencil guessing game for two or more players. One player thinks of a word, phrase or sentence and the other(s) tries to guess it by suggesting letters within a certain number of guesses.
 ![hangman](hman.jpg)
 ### Handcricket:
-Hand cricket is played through gestures (called 'throws') similar to rock paper scissors. The total number of fingers extended equates to the equivalent number, with a thumb counting as 6. Throws are made simultaneously by both players, one designated as the batter and the other as the bowler. Runs scored according to the batter's throws until the bowler throws the same, in which case the batter is "out". It is played by school children in India,[18] Sri Lanka and Pakistan.
+Hand cricket is played through gestures (called 'throws') similar to rock paper scissors. The total number of fingers extended equates to the equivalent number, with a thumb counting as 6. Throws are made simultaneously by both players, one designated as the batter and the other as the bowler. Runs scored according to the batter's throws until the bowler throws the same, in which case the batter is "out". It is played by school children in India Sri Lanka and Pakistan.
+
 ![handcricket](Hand.png)
+
 ## SWOT ANALYSIS
+
 ![swot](swot.png)
+
 ### Strength
 The strength of hangman game is that it's useful for English because it improves your spelling.If you keep on practicing and playing this game
 The game becomes more fun when the number of players increases and it is also an educational game because you are learning and also having fun at the same time
