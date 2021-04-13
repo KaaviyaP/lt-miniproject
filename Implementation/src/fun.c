@@ -5,6 +5,7 @@
 #include "fun.h"
 #include<time.h>
 
+
 void print(char ar[][5])
 {
 	int i,j;
