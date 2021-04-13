@@ -60,10 +60,33 @@ If the user selects Handcricket:
 ####HANGMAN
 |Id No|Requirement|Category|
 |--- |--- |--- |
-|HR01|
+|HR01|The system shall give an user to select between games|Technical|
+|HR02|The system shall give an user to write their own name|Technical|
+|HR03|The system shall display hangman structure everytime the users guess the character|Technical|
+|HR04| The system shall display scores after each round|Technical|
+|HR05|The system shall decide the winner|Technical|
 
+### Hand cricket
+|Id No|Requirement|Category|
+|--- |--- |--- |
+|HR06|System shall give an user to choose between bat and bowl|Technical|
+|HR07|System shall give an user to select an user name|Technical|
+|HR08|System shall decide the winner|Technical|
+|HR09|The system shall display a text image when a user or computer gets out or hits a six or four|Technical|
 
+## Low level Requirement
 
+|ID No|Description|HR reference|Category|
+|--- |--- |--- |--- |
+|LL01|When the user runs the file it gives the user an option to select between the games which are available. As of now two games have been included namely hangman and handcicket and the user can choose anyone of them and play accordingly|HR01|Technical|
+|LL02|This system also allows the user to type in their players name|HR02|Technical|
+|LL03|After guessing of every  character the system should display hangman structure and it should also display the number of tries that is available for the user to guess the remaining character|HR03|Technical|
+|LL04|After each round the system should display the users score so that they could know their position and could compete well with the other users|HR04|Technical|
+|LL05|After completion of all rounds it is necessary for the system to decide the winner and also give a end conclusion|HR05|Technical|
+|LL06|In the second game which is included the system gives the user an option to either bat first or ball first rather than using the typical method of tossing the coin here the user has an comfortability to select either to ball or bat first|HR06|Technical|
+|LL07|Even in this game it gives the user an option to select his own game name|HR07|Technical|
+|LL08|The system will decide the winner by comparing the runs scored by that of a computer and that of a user|HR08|Technical|
+|LL09|The text image or the ASCII image will be stored in the text file and whenever the user or computer hits a six or a four or gets out the text image based on each scenario pops up and shows the display|HR09|Technical|
 
 
 
