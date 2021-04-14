@@ -6,7 +6,8 @@ This system is a gaming application which allows user to select between various 
 ### cost:
 ![cost and features](yes.jpg)
 
-The size of the game will be added once it is done
+Closer to  100 kilo bytes
+
 ### Features:
 The system offers the user to select between two games namely Hangman and handcricket
 Hangman is multiplayer game and need minimum of two player to play this game
