@@ -5,6 +5,7 @@ This system is a gaming application which allows user to select between various 
 ## COST AND FEATURES:
 ### cost:
 ![cost and features](yes.jpg)
+
 The size of the game will be added once it is done
 ### Features:
 The system offers the user to select between two games namely Hangman and handcricket
@@ -17,7 +18,9 @@ Hangman is a paper and pencil guessing game for two or more players. One player 
 ![hangman](hman.jpg)
 ### Handcricket:
 Hand cricket is played through gestures (called 'throws') similar to rock paper scissors. The total number of fingers extended equates to the equivalent number, with a thumb counting as 6. Throws are made simultaneously by both players, one designated as the batter and the other as the bowler. Runs scored according to the batter's throws until the bowler throws the same, in which case the batter is "out". It is played by school children in India,[18] Sri Lanka and Pakistan.
+
 ![handcricket](Hand.png)
+
 ## SWOT ANALYSIS
 ![swot](swot.png)
 ### Strength
