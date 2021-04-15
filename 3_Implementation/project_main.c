@@ -31,7 +31,7 @@ int main()
 	{
 	int num_p,i=1;
 	int num_p_c;
-	 char *filename = "Implementation/src/image.txt";
+	 char *filename = "src/image.txt";
     FILE *fptr = NULL;
 
 
@@ -219,7 +219,7 @@ int main()
 		}
 		
 	}
-	 char *filename1 = "Implementation/src/win.txt";
+	 char *filename1 = "src/win.txt";
     FILE *fptr1 = NULL;
 
 
@@ -233,6 +233,7 @@ int main()
     print_image(fptr1);
 
     fclose(fptr1);
+    free(players);
 	}
 	else if (choice==2)
 	{
@@ -242,7 +243,7 @@ int main()
    * @brief to display the image text
    * 
    */
-  char *filename = "Implementation/src/handcricket.txt";
+  char *filename = "src/handcricket.txt";
     FILE *fptr7 = NULL;
 
     if((fptr7 = fopen(filename,"r")) == NULL)
@@ -254,8 +255,7 @@ int main()
     print_image(fptr7);
 
     fclose(fptr7);
-
-  handcricket *player;
+handcricket *player;
   player=(handcricket *) malloc(1*sizeof(handcricket));
   printf("\nEnter the player details:\n");
   user_details(player);
@@ -291,10 +291,14 @@ int main()
   if(bat_score>bowl_score)
   {
     printf("%s congrats you won the match\n",player->user_name);
+    free(player);
   }
   else
-  printf("computer won the match \n %s better luck next time\n",player->user_name);
+  {
   
+  printf("computer won the match \n %s better luck next time\n",player->user_name);
+  free(player);
+}
 	}
 	else
 	{

@@ -206,7 +206,7 @@ i=i-1;
   int k=rand()%6;
   if(run==k)
   {
-        char *filename = "Implementation/src/out.txt";
+        char *filename = "src/out.txt";
     FILE *fptr6 = NULL;
 
     if((fptr6 = fopen(filename,"r")) == NULL)
@@ -227,7 +227,7 @@ i=i-1;
   if(run==4)
   {
      
-      char *filename = "Implementation/src/four.txt";
+      char *filename = "src/four.txt";
     FILE *fptr5 = NULL;
 
     if((fptr5 = fopen(filename,"r")) == NULL)
@@ -245,7 +245,7 @@ printf("\n");
   if(run==6)
 {
     
-     char *filename = "Implementation/src/six.txt";
+     char *filename = "src/six.txt";
     FILE *fptr4 = NULL;
 
     if((fptr4 = fopen(filename,"r")) == NULL)
@@ -312,7 +312,7 @@ int bowl(int over,int chase,int val)
        * @brief to display a image text 
        * 
        */
-      char *filename = "Implementation/src/out.txt";
+      char *filename = "src/out.txt";
     FILE *fptr1 = NULL;
 
     if((fptr1 = fopen(filename,"r")) == NULL)
@@ -332,7 +332,7 @@ int bowl(int over,int chase,int val)
   if(k==4)
   {
         
-      char *filename = "Implementation/src/four.txt";
+      char *filename = "src/four.txt";
     FILE *fptr2 = NULL;
 
     if((fptr2 = fopen(filename,"r")) == NULL)
@@ -348,7 +348,7 @@ int bowl(int over,int chase,int val)
   }
   if(k==6)
   {
-char *filename = "Implementation/src/six.txt";
+char *filename = "src/six.txt";
     FILE *fptr3 = NULL;
 
     if((fptr3 = fopen(filename,"r")) == NULL)
